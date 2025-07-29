@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="create.css">
+  <title>Create Student Entry</title>
+ 
+</head>
+<body>
+  <h1>Create New Student Entry</h1>
+  <form id="studentForm">
+    <label for="name">Student Name</label>
+    <input type="text" id="name" required>
+
+    <label for="id">Student ID (auto-generated)</label>
+    <input type="text" id="id" readonly>
+
+    <label for="grade">Grade</label>
+    <input type="text" id="grade" required>
+
+    <label for="photo">Photo Path</label>
+    <input type="text" id="photo" placeholder="e.g. images/zoe.jpg">
+
+    <label for="parentName">Parent Name</label>
+    <input type="text" id="parentName" required>
+
+    <label for="parentToken">Parent Token (auto-generated)</label>
+    <input type="text" id="parentToken" readonly>
+
+    <label for="sessionsRemaining">Sessions Remaining</label>
+    <input type="number" id="sessionsRemaining" value="8">
+
+    <label for="currentSeason">Current Season</label>
+    <select id="currentSeason">
+      <option value="SeedSZN">SeedSZN</option>
+      <option value="CodeSZN">CodeSZN</option>
+      <option value="BuildSZN">BuildSZN</option>
+      <option value="CompeteSZN">CompeteSZN</option>
+    </select>
+
+    <label for="milestones">Milestone Statuses (comma: complete, in-progress, etc)</label>
+    <input type="text" id="milestones" placeholder="e.g. complete, complete, in-progress, , , ">
+
+    <label for="projects">Projects (comma-separated)</label>
+    <input type="text" id="projects" placeholder="e.g. Scratch Maze Game, Line-Following Robot">
+
+    <label for="skills">Skills Unlocked (comma-separated)</label>
+    <input type="text" id="skills" placeholder="e.g. Loops, Ultrasonic Sensor">
+
+    <label for="notes">Instructor Notes</label>
+    <textarea id="notes" rows="3"></textarea>
+
+    <label for="nextSteps">Suggested Next Steps (comma-separated)</label>
+    <input type="text" id="nextSteps" placeholder="e.g. Practice variables, Debug Scratch">
+
+    <label for="collab">Collaboration Score</label>
+    <input type="number" id="collab" value="0">
+
+    <label for="problem">Problem Solving Score</label>
+    <input type="number" id="problem" value="0">
+
+    <button type="submit">Generate JSON</button>
+    <button type="button" id="copyBtn">Copy JSON</button>
+    <button type="button" id="downloadBtn">Download JSON</button>
+  </form>
+
+  <pre id="output"></pre>
+
+  <script src="create.js">
+   
+  </script>
+</body>
+</html>

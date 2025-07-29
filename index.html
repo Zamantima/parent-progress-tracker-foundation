@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RoboSZN</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts (Only necessary fonts) -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Nunito:wght@400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="overlay"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="assets/logo2Cropped.png" alt="RoboSZN Logo" class="nav-logo me-2" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Meet the Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#join">Join Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero text-center">
+    <img src="images/RoboSZNLanding2png.png" alt="RoboSZN Hero Image" class="hero-img" />
+    <p class="hero-tagline mt-4">Coding & Robotics for Kids in Grades 1–12</p>
+    <div>
+      <a href="#join" class="btn btn-primary btn-lg">Join the Movement</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section py-5 text-white text-center mt-0">
+    <div class="container">
+      <h2 class="display-5 fw-bold mb-4">Why RoboSZN?</h2>
+      <p class="lead mx-auto" style="max-width: 720px;">
+        RoboSZN is a coding and robotics club for kids in Grades 1 to 12 designed to develop future-ready skills through hands-on projects, competitions, and real-world challenges.
+        With a unique gamified and season-based learning journey—SeedSZN to FutureSZN—we teach coding, robotics, and an emphasis on AI in a fun, progressive, and accessible way.
+      </p>
+
+      <div class="row mt-5">
+        <div class="col-md-6 mb-4 mb-md-0">
+        <!--<img src="images/teacher.jpg" alt="Team working on robotics" class="img-fluid rounded shadow">-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/teacher.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/NPO2.jpeg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/EHH1.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/ENPO7.jpg" alt="Fourth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/ENPO10.jpg" alt="Fifth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/ENPO13.jpg" alt="Sixth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/NPO2.jpeg" alt="Seventh slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/NPO8.jpeg" alt="Eigth slide">
+              </div>
+            </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        </div>
+        <div class="col-md-6 text-start mt-4">
+          <h4 class="text-info">Our Mission</h4>
+          <p>To empower the next generation of innovators in Secunda and ultimately South Africa with coding, robotics, and AI skills.</p>
+
+          <h4 class="text-info">Our Story</h4>
+          <p>RoboSZN was created to fill a critical gap in communities like Secunda, where learners have passion, potential, and creativity, but limited access to future-focused tech education.
+            We started with a simple idea: give kids the tools to code, build, and solve real problems while having fun and leveling up.
+          </p>
+
+          <h4 class="text-info">Our Core Values</h4>
+          <ul class="list-unstyled">
+            <li>🤖 Hands-On Learning – Kids learn by doing, not memorizing</li>
+            <li>🧠 Real-World Relevance – AI, electronics, robotics</li>
+            <li>🚀 Gamified Progression – XP, badges, and real rewards</li>
+            <li>🎯 Inclusive & Encouraging – Especially for girls & first-time tech learners</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <h2 class="display-4 fw-bold mb-5 d-flex justify-content-center align-items-center gap-3" id="programs">
+        🧩 Tiered Programs
+  </h2>
+
+  <div class="tier-section mb-5">
+    <!-- Card 1 -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front d-flex flex-column justify-content-center">
+          <h4>Code Explorers</h4>
+          <p>Grade 1–7</p>
+          <p>R500/month</p>
+          <p>Tools Used: ScratchJr, Scratch, Code.org, LEGO SPIKE Essential, TinkerCAD. </p>
+          <p>Outcomes: Interactive games, basic robotics, progress badges, parent reports. </p>
+          <p>No prior experience needed. We will guide you from scratch.</p>
+          <!-- Add inside flip-card-front -->
+          <button class="btn btn-flip d-md-none mt-3">More Info</button>
+
+        </div>
+        <div class="flip-card-back text-start">
+          <p>Our entry-level program introduces young learners to the world of coding through creative, drag-and-drop platforms like ScratchJr, Scratch, and Code.org. Learners are introduced to the basics of robotics through hands-on activities using LEGO SPIKE Essential.</p>
+          <p>Students develop foundational logic skills by building animations, games, interactive stories, and robotics, all while having fun. With a mix of screen-free “unplugged” activities and visual programming, kids learn to think like problem-solvers.</p>
+          <p>It's the perfect first step into the tech world, with progress badges and parent reports to track their growth.</p>
+          <button class="btn btn-flip d-md-none mt-3">Back</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front d-flex flex-column justify-content-center">
+          <h4>Innovators</h4>
+          <p>Grade 1–7</p>
+          <p>R750/month</p>
+          <!--<p>LEGO robotics, engineering, CAD</p>-->
+          <p>Tools Used: Python, App Inventor, HTML/CSS/JS, Scratch, ScratchJr, TinkerCAD, Code.org, LEGO SPIKE kits, LEGO SPIKE simulation. </p>
+          <p>Outcomes: Robotic projects, personal websites, working logic-based projects, portfolio building, robot simulation, IoT projects, digital certificates.</p>
+          <p>No prior experience needed. We will guide you from scratch.</p>
+          <button class="btn btn-flip d-md-none mt-3">More Info</button>
+        </div>
+        <div class="flip-card-back text-start">
+          <p>Perfect for curious builders, this track blends the creative coding of Code Explorers with hands-on robotics using LEGO SPIKE Essentials and LEGO SPIKE Essential.</p>
+          <p>Students learn how to design, build, and code their own robots that respond to movement, light, and touch. Each session is packed with problem-solving, team challenges, and innovation. Whether drawing with robots or building a robot pet, learners engage deeply while mastering STEM and programming skills.</p>
+          <p>Includes fun competitions, a digital badge tracker, and a parent showcase.</p>
+          <button class="btn btn-flip d-md-none mt-3">Back</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front d-flex flex-column justify-content-center">
+          <h4>Code Explorers+</h4>
+          <p>Grade 8–12</p>
+          <p>R650/month</p>
+          <p>Tools Used: LEGO SPIKE kits, Scratch, TinkerCAD Circuits, TinkerCAD 3D Design, sensors, SPIKE Prime simulation.</p>
+          <p>Outcomes: Fully built robots, reaction-based machines, mini competitions, parent expo, badge tracker.</p>
+          <p>No prior experience needed. We will guide you from scratch.</p>
+          <button class="btn btn-flip d-md-none mt-3">More Info</button>
+         </div>
+        <div class="flip-card-back text-start">
+          <p>This tier empowers young learners to go beyond drag-and-drop coding and start building real software.</p>
+          <p>Students learn Python, web development (HTML/CSS/JavaScript), and mobile app creation using tools like Replit and App Inventor.</p>
+          <p>The course is scaffolded to support beginners while also challenging advanced students with real-world projects. Each learner walks away with their own portfolio, ready to share with schools, competitions, or future opportunities.</p>
+          <button class="btn btn-flip d-md-none mt-3">Back</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front d-flex flex-column justify-content-center">
+          <h4>Innovators+</h4>
+          <p>Grade 8–12</p>
+          <p>R950/month</p>
+          <p> Tools Used: Arduino kits, LEGO SPIKE Prime, Python (Replit), App Inventor, HTML/CSS/JS, TinkerCAD. </p>
+          <p>Outcomes: Web apps, smart robotics, IoT projects, live demo day, project documentation, digital portfolio. </p>     
+          <p>No prior experience needed. We will guide you from scratch.</p>
+        <button class="btn btn-flip d-md-none mt-3">More Info</button>        </div>
+        <div class="flip-card-back text-start">
+          <p>Our most advanced offering is built for tomorrow’s engineers, coders, and tech entrepreneurs.</p>
+          <p>Young learners dive into full-stack development, robotics, IoT, and app design, all in one program. They learn Python, build smart devices using Arduino or LEGO SPIKE Prime, and simulate real-world systems through coding.</p>
+          <p>Ideal for ambitious high school students who want to push boundaries, solve real problems, and create something meaningful. Every student completes a capstone project and presents it at a live demo event, developing both technical and communication skills.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="single-class-note text-center py-4">
+  <div class="container">
+    <p class="note-text">
+      💡 <strong>Single class pricing</strong> is available upon request. Contact us for more details!
+    </p>
+  </div>
+</section>
+
+
+  <!-- Meet the Team -->
+  <section id="team" class="team-section py-5 text-center text-white">
+    <div class="container">
+      <h2 class="display-4 fw-bold mb-5 d-flex justify-content-center align-items-center gap-3">
+        <img src="assets/futuristic_logo_rmbg.png" alt="SZN Icon" style="height: 48px;" />
+        Squad Roster: Meet the Team
+      </h2>
+
+      <div class="row justify-content-center g-4">
+        <!-- Zamantima -->
+        <div class="col-md-5 col-lg-4">
+          <div class="player-card p-4 rounded">
+            <img src="lead players/Zamantima.jpg" alt="Zama.jpg" class="player-avatar mb-3">
+            <h4 class="player-name">Zamantima Thela</h4>
+            <p class="player-role">📘 Curriculum & Learning Lead, Founder</p>
+            <ul class="player-stats list-unstyled mt-3">
+              <li>A former high school Computer Science teacher with a passion for innovative education. Zamantima designs creative, hands-on learning experiences that make robotics and coding fun and accessible for every learner.</li>
+            </ul>
+            <!-- Social Links -->
+            <div class="founder-socials mt-3">
+                <a href="https://www.linkedin.com/in/zamantima-thela" target="_blank" class="social-icon me-3">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              
+                <a href="https://www.tiktok.com/@zama_nirmata" target="_blank" class="social-icon">
+                  <i class="bi bi-tiktok"></i>
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ntokozo -->
+        <div class="col-md-5 col-lg-4">
+          <div class="player-card p-4 rounded">
+            <img src="lead players/Shammah1.jpg" alt="Ntokozo.jpg" class="player-avatar mb-3">
+            <h4 class="player-name">Ntokozo Ngwenya</h4>
+            <p class="player-role">🚀 Mech-Tech Mentor, Founder</p>
+            <ul class="player-stats list-unstyled mt-4 p-1">
+              <li>Mechanical engineer and coding enthusiast, passionate about equipping young South Africans with real-world engineering skills.</li>
+            </ul>
+            <!-- Social Links -->
+            <div class="founder-socials mt-3">
+              <a href="https://www.linkedin.com/in/zamantima-thela" target="_blank" class="social-icon me-3">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="join" class="join-section py-5 text-white text-center">
+  <div class="container">
+    <h2 class="display-4 fw-bold mb-4">🚀 Join the RoboSZN Movement</h2>
+    <p class="lead mb-4">Choose how you'd like to connect with us:</p>
+
+    <div class="d-flex justify-content-center mb-4 gap-2">
+      <button class="btn btn-outline-info toggle-form" data-target="club-form">Join the Club</button>
+      <button class="btn btn-outline-info toggle-form" data-target="open-day-form">Open Day Sign-Up</button>
+    </div>
+
+    <!-- Club Form -->
+    <div id="club-form" class="form-toggle">
+    <!--time slots-->
+<section id="open-day-times" class="join-section py-5 text-white text-center">
+  <div class="container">
+    <h2 class="display-5 fw-bold mb-4">🕒 RoboSZN Program Times</h2>
+    <p class="lead mb-4">Here’s a breakdown of our weekly class times by grade and program.</p>
+
+    <div class="text-center">
+      <img src="assets/times1.png" alt="RoboSZN Program Times" class="img-fluid rounded shadow-sm" style="max-width: 100%; height: auto;">
+    </div>
+
+    <form action="https://formsubmit.co/info@roboszn.co.za" method="POST" class="join-form mx-auto text-start mt-5" style="max-width: 600px;">
+      <h4 class="text-info">📝 Sign Up Below</h4>
+
+      <div class="mb-3">
+        <label class="form-label">Parent Full Name</label>
+        <input type="text" name="Parent Name" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Parent Email</label>
+        <input type="email" name="Parent Email" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Phone Number</label>
+        <input type="tel" name="Phone Number" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Student Full Name</label>
+        <input type="text" name="Student Name" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Student Grade</label>
+        <select name="Student Grade" class="form-select" required>
+          <option value="" disabled selected>Select Grade</option>
+          <option>Grade 1</option><option>Grade 2</option><option>Grade 3</option>
+          <option>Grade 4</option><option>Grade 5</option><option>Grade 6</option>
+          <option>Grade 7</option><option>Grade 8</option><option>Grade 9</option>
+          <option>Grade 10</option><option>Grade 11</option><option>Grade 12</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Preferred Program</label>
+        <select name="Program Choice" class="form-select" required>
+          <option value="" disabled selected>Select Program</option>
+          <option>Innovators (Grade 1–3)</option>
+          <option>Code Explorers (Grade 1–3)</option>
+          <option>Innovators (Grade 4–7)</option>
+          <option>Code Explorers (Grade 4–7)</option>
+          <option>Innovators+ (Grade 8–12)</option>
+          <option>Code Explorers+ (Grade 8–12)</option>
+        </select>
+      </div>
+
+      <div class="mb-4">
+        <label class="form-label">Additional Comments (optional)</label>
+        <textarea name="Comments" class="form-control" rows="3"></textarea>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary px-5">Submit</button>
+      </div>
+      <br>
+
+       <div class="text-center">
+          <img src="assets/times2.png" alt="RoboSZN Program Times" class="img-fluid rounded shadow-sm" style="max-width: 100%; height: auto;">
+      </div>
+    </form>
+  </div>
+</section>
+
+    </div>
+
+    <!-- Open Day Form -->
+    <div id="open-day-form" class="form-toggle d-none">
+      <!-- Paste your Open Day form here -->
+        <section id="openday" class="join-section py-5 text-white text-center">
+  <div class="container">
+    <h2 class="display-5 fw-bold mb-4">🎉 Sign Up for Our Open Day!</h2>
+    <p class="lead mb-4">Come experience the future of learning! Fill out the form to book your spot.</p>
+
+    <form action="https://formsubmit.co/info@roboszn.co.za" method="POST" class="join-form mx-auto text-start" style="max-width: 600px;">
+      
+      <div class="mb-3">
+        <label class="form-label">Parent Full Name</label>
+        <input type="text" name="Parent Name" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Parent Email</label>
+        <input type="email" name="Parent Email" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Phone Number</label>
+        <input type="tel" name="Phone Number" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Student Full Name</label>
+        <input type="text" name="Student Name" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Student Grade</label>
+        <select name="Student Grade" class="form-select" required>
+          <option value="" disabled selected>Select Grade</option>
+          <option>Grade 1</option>
+          <option>Grade 2</option>
+          <option>Grade 3</option>
+          <option>Grade 4</option>
+          <option>Grade 5</option>
+          <option>Grade 6</option>
+          <option>Grade 7</option>
+          <option>Grade 8</option>
+          <option>Grade 9</option>
+          <option>Grade 10</option>
+          <option>Grade 11</option>
+          <option>Grade 12</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Preferred Open Day</label>
+        <select name="Open Day Date" class="form-select" required>
+          <option value="" disabled selected>Select Date</option>
+          <option value="Saturday, June 27 – 10:00 AM">Saturday, June 27 – 10:00 AM </option>
+          <option value="Saturday, June 27 – 12:00 PM">Saturday, June 27 – 12:00 PM</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Additional Comments (optional)</label>
+        <textarea name="Comments" class="form-control" rows="3"></textarea>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary px-5">Book My Spot</button>
+      </div>
+    </form>
+  </div>
+</section>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="footer py-4">
+    <div class="container text-center text-white">
+      <img src="assets/logo2Cropped.png" alt="RoboSZN Logo" style="height: 50px;" class="mb-2">
+      <h5 class="mt-2 mb-4">RoboSZN</h5>
+  
+    <!-- Social Media Links -->
+    <div class="mb-4">
+      <a href="https://www.instagram.com/roboszn_za/?next=%2F" target="_blank" class="footer-link me-3">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=61575993959985" target="_blank" class="footer-link me-3">
+        <i class="bi bi-facebook"></i>
+      </a>
+     <!-- <a href="https://linkedin.com/company/yourpage" target="_blank" class="footer-link me-3">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://youtube.com/yourpage" target="_blank" class="footer-link">
+        <i class="bi bi-youtube"></i>
+      </a> -->
+    </div>
+  
+      <p class="small mb-2">📧 info@roboszn.co.za</p>
+      <p class="small mb-2">📞 +27 76 235 3827 </p> 
+    </div>
+  </footer>
+  
+      <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+ document.querySelectorAll('.toggle-form').forEach(button => {
+    button.addEventListener('click', function () {
+      const target = this.dataset.target;
+      document.querySelectorAll('.form-toggle').forEach(form => {
+        form.classList.add('d-none');
+      });
+      document.getElementById(target).classList.remove('d-none');
+    });
+  });
+</script>
+
+</body>
+</html>

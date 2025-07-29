@@ -1,0 +1,65 @@
+ body {
+     font-family: 'Nunito', sans-serif;
+     background-color: #007599;
+     color: white;
+     padding: 40px;
+ }
+
+ h1 {
+     color: #ffffff;
+     text-align: center;
+ }
+
+ form {
+     max-width: 600px;
+     margin: auto;
+     background: #004899;
+     padding: 30px;
+     border-radius: 20px;
+ }
+
+ label {
+     display: block;
+     margin-top: 20px;
+     font-weight: bold;
+ }
+
+ input,
+ select,
+ textarea {
+     width: 100%;
+     padding: 10px;
+     border-radius: 8px;
+     border: none;
+     margin-top: 5px;
+ }
+
+ button {
+     margin-top: 20px;
+     padding: 12px 24px;
+     background-color: #29f500;
+     color: black;
+     font-weight: bold;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+
+ #copyBtn {
+     background-color: #00e5ff;
+     margin-left: 10px;
+ }
+
+ #downloadBtn {
+     background-color: #ffca28;
+     margin-left: 10px;
+ }
+
+ pre {
+     white-space: pre-wrap;
+     background: #002244;
+     padding: 20px;
+     border-radius: 12px;
+     margin-top: 20px;
+     overflow-x: auto;
+ }

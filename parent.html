@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RoboSZN Parent Dashboard</title>
+  <link rel="stylesheet" href="parent.css" />
+  <style>
+    /* Your custom inline styles can go here if needed */
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Profile Section -->
+    <div class="profile-header">
+      <div class="student-info">
+        <img id="studentPhoto" src="" alt="Student Avatar">
+        <h2 id="studentName"></h2>
+      </div>
+      <div class="program-tag">
+        Program: <span id="programType">Loading...</span>
+      </div>
+      <div class="session-tag">
+        Sessions Remaining: <span id="sessionCount">0</span>
+      </div>
+      
+    </div>
+
+    <div class="dashboard-content">
+      <!-- LEFT COLUMN -->
+      <div class="left-column">
+        <div class="progess-wrapper">
+          <h1 class="progress-title">Seasonal Progress</h1>
+          <div class="season-track"></div>
+        </div>
+
+        <div class="milestones"></div>
+        <div id="season-caption"></div>
+        <div id="projectText" class="project-inline-text">
+          Click on a milestone to view more information.
+        </div>
+        <div class="season-card" id="seasonSummary"></div>
+
+        <section class="skill-focus-section">
+          <h2 id="skillFocusTitle">🌱 Skill Focus: Loading...</h2>
+
+          <div class="skill-tables">
+            <div class="skill-category-box" id="codingSection">
+              <h3>🧱 CODING</h3>
+              <table class="skill-table">
+                <thead>
+                  <tr>
+                    <th>Skill</th>
+                    <th>Status</th>
+                    <th>Explanation</th>
+                  </tr>
+                </thead>
+                <tbody id="codingSkillsBody">
+                  <!-- Coding rows inserted here -->
+                </tbody>
+              </table>
+            </div>
+
+            <div class="skill-category-box" id="roboticsSection">
+              <h3>🛠️ ROBOTICS</h3>
+              <table class="skill-table">
+                <thead>
+                  <tr>
+                    <th>Skill</th>
+                    <th>Status</th>
+                    <th>Explanation</th>
+                  </tr>
+                </thead>
+                <tbody id="roboticsSkillsBody">
+                  <!-- Robotics rows inserted here -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- BADGES EARNED SECTION -->
+        <div class="badge-area">
+          <h3>🏅 Earned Badges</h3>
+          <ul id="badgeList"></ul>
+        </div>
+
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="right-column">
+
+        <!-- PROJECT GALLERY (Moved to Top) -->
+
+        <h3>Project Gallery</h3>
+        <div class="gallery-grid" id="projectGallery">
+          <div class="project-tile"><img src="images/project1.jpg" alt="Project Screenshot"></div>
+          <div class="project-tile"><img src="images/project1.jpg" alt="Project Screenshot"></div>
+          <div class="project-tile tall"><img src="images/project1.jpg" alt="Project Screenshot"></div>
+          <div class="project-tile tall"><img src="images/project1.jpg" alt="Project Screenshot"></div>
+          <div class="project-tile"><img src="images/project1.jpg" alt="Project Screenshot"></div>
+          <div class="project-tile"><img src="images/project1.jpg" alt="Project Screenshot"></div>
+          <div class="project-tile small"><img src="images/project1.jpg" alt="Project Screenshot"></div>
+          <div class="project-tile"><img src="images/project1.jpg" alt="Project Screenshot"></div>
+          <div class="project-tile small"><img src="images/project1.jpg" alt="Project Screenshot"></div>
+        </div>
+
+        <!-- WEEKLY REPORT SECTION -->
+        <div class="dashboard-card">
+          <h3>📅 Weekly Report</h3>
+          <div class="report-card">
+            <strong>🧠 Skills Practiced:</strong>
+            <ul class="skills-practiced"></ul>
+          </div>
+          <div class="report-card">
+            <strong>🎯 Mini Challenges Completed:</strong>
+            <ul class="mini-challenges"></ul>
+          </div>
+          <div class="report-card">
+            <strong>🤝 Collaboration:</strong>
+            <span class="score">0/10</span><br>
+            <strong>🎨 Creativity:</strong>
+            <span class="score">0/10</span>
+          </div>
+          <div class="report-card">
+            <strong>💬 Confidence Boost:</strong>
+            <p id="confidenceBoost"></p>
+          </div>
+        </div>
+
+        <!-- INSTRUCTOR NOTES -->
+        <div class="dashboard-card">
+          <h3>Instructor Notes</h3>
+          <div class="instructor-note">
+            <img src="images/avatars/Zama.jpeg" alt="Instructor Emoji" />
+            <p id="instructorNoteText"></p>
+          </div>
+        </div>
+
+        <!-- SUGGESTED NEXT STEPS -->
+        <div class="dashboard-card">
+          <h3>Suggested Next Steps</h3>
+          <ul id="nextStepsList"></ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <script src="parent.js"></script>
+</body>
+
+</html>

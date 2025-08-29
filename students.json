@@ -1,768 +1,4 @@
 [
-  {
-    "id": "009",
-    "name": "Beyonce Knowles",
-    "program" : "Code Explorers",
-    "photo": "images/avatars/beyonce.jpg",
-    "projectGallery": [
-      {
-        "title": "RoboBUG",
-        "image": "images/studentprojects/beyonce/images1.jpg"
-      },
-      {
-        "title": "Light Sensor Bot",
-        "image": "images/studentprojects/beyonce/2.png"
-      },
-      {
-        "title": "RoboBUG",
-        "image": "images/studentprojects/beyonce/3.jpg"
-      },
-      {
-        "title": "Light Sensor Bot",
-        "image": "images/studentprojects/beyonce/4.jpg"
-      },
-      {
-        "title": "RoboBUG",
-        "image": "images/studentprojects/beyonce/5.jpg"
-      },
-      {
-        "title": "Light Sensor Bot",
-        "image": "images/studentprojects/beyonce/6.jpg"
-      }
-           
-    ],
-    "parentName": "Ntokozo Ngwenya",
-    "parentToken": "ZAMANTIMA-932",
-    "grade": "6",
-    "sessionsRemaining": 12,
-    "currentSeason": "SeedSZN",
-    "seasonMilestones": [
-      "inProgress",
-      "notStarted",
-      "notStarted",
-      "notStarted",
-      "notStarted",
-      "notStarted"
-    ],
-    "currentMilestoneIndex": 1,
-    "milestoneProgress": {
-      "RoboPet Challenge": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Scratch Game": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Line-Following Robot": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "LED Sequencer": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Interactive Story": {
-       "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "End-of-Term Showcase": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      }
-    },
-    "weeklyReport": {
-      "skillsPracticed": [
-        "Loops",
-        "Basic Logic",
-        "Sensor Triggering",
-        "Sequential Thinking"
-      ],
-      "miniChallengesCompleted": [
-        "Robot",
-        "Turned at wall",
-        "Used flash"
-      ],
-      "collaborationScore": 10,
-      "creativityScore": 6,
-      "confidenceGrowth": "Volunteered to showcase solution."
-    },
-    "badgesEarned": [
-      {
-        "name": "Demo Champ",
-        "description": "Presented their robot to the class with confidence.",
-        "icon": "🎤",
-        "season": "SeedSZN",
-        "criteria": "Presented a robot project in Week 3"
-      },
-      {
-        "name": "God Level",
-        "description": "Showed.",
-        "icon": "🌟",
-        "season": "CodeSZN",
-        "criteria": "Displayed strong logical thinking in week 5."
-      },
-        {"name": "Coder Level",
-        "description": "Shows mastery of logic loops, conditionals, variables.",
-        "icon": "🌟",
-        "season": "SeedSZN",
-        "criteria": "Displayed strong logical thinking in week 5."
-      }
-    ],
-    "instructorNotes": "It was a successful week. I encrourage Beyonce to come to South Africa.",
-    "suggestedNextSteps": [
-      "Work faster in building"
-    ]
-  },
-
-
-
-
-
-  {
-    "id": "009",
-    "name": "Lika",
-    "program" : "Innovators",
-    "photo": "images/avatars/beyonce.jpg",
-    "projectGallery": [
-      {
-        "title": "RoboBUG",
-        "image": "images/studentprojects/beyonce/images1.jpg"
-      },
-      {
-        "title": "Light Sensor Bot",
-        "image": "images/studentprojects/beyonce/2.png"
-      },
-      {
-        "title": "RoboBUG",
-        "image": "images/studentprojects/beyonce/3.jpg"
-      },
-      {
-        "title": "Light Sensor Bot",
-        "image": "images/studentprojects/beyonce/4.jpg"
-      },
-      {
-        "title": "RoboBUG",
-        "image": "images/studentprojects/beyonce/5.jpg"
-      },
-      {
-        "title": "Light Sensor Bot",
-        "image": "images/studentprojects/beyonce/6.jpg"
-      }
-           
-    ],
-    "parentName": "Adri",
-    "parentToken": "LIKA-487",
-    "grade": "4",
-    "sessionsRemaining": 2,
-    "currentSeason": "SeedSZN",
-    "seasonMilestones": [
-      "inProgress",
-      "notStarted",
-      "notStarted",
-      "notStarted",
-      "notStarted",
-      "notStarted"
-    ],
-    "currentMilestoneIndex": 1,
-    "milestoneProgress": {
-      "RoboPet Challenge": {
-        "Coding": {
-          "Sequencing": "notStarted",
-          "Loops": "notStarted",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "notStarted",
-          "Motor control": "notStarted",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Scratch Game": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Line-Following Robot": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "LED Sequencer": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Interactive Story": {
-       "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "End-of-Term Showcase": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      }
-    },
-    "weeklyReport": {
-      "skillsPracticed": [
-        
-      ],
-      "miniChallengesCompleted": [
-       
-      ],
-      "collaborationScore": 0,
-      "creativityScore": 0,
-      "confidenceGrowth": "-"
-    },
-    "badgesEarned": [
-      {
-        "name": "",
-        "description": "",
-        "icon": "🎤",
-        "season": "SeedSZN",
-        "criteria": ""
-      }
-  
-    ],
-    "instructorNotes": "",
-    "suggestedNextSteps": [
-      ""
-    ]
-  },
-
-
-
-
-
-
-
-  {
-    "id": "009",
-    "name": "Aaliya",
-    "program" : "Innovators",
-    "photo": "images/avatars/beyonce.jpg",
-    "projectGallery": [
-      {
-        "title": "RoboBUG",
-        "image": "images/studentprojects/beyonce/images1.jpg"
-      },
-      {
-        "title": "Light Sensor Bot",
-        "image": "images/studentprojects/beyonce/2.png"
-      },
-      {
-        "title": "RoboBUG",
-        "image": "images/studentprojects/beyonce/3.jpg"
-      },
-      {
-        "title": "Light Sensor Bot",
-        "image": "images/studentprojects/beyonce/4.jpg"
-      },
-      {
-        "title": "RoboBUG",
-        "image": "images/studentprojects/beyonce/5.jpg"
-      },
-      {
-        "title": "Light Sensor Bot",
-        "image": "images/studentprojects/beyonce/6.jpg"
-      }
-           
-    ],
-    "parentName": "-",
-    "parentToken": "AALIYA-987",
-    "grade": "4",
-    "sessionsRemaining": 2,
-    "currentSeason": "SeedSZN",
-    "seasonMilestones": [
-      "inProgress",
-      "notStarted",
-      "notStarted",
-      "notStarted",
-      "notStarted",
-      "notStarted"
-    ],
-    "currentMilestoneIndex": 1,
-    "milestoneProgress": {
-      "RoboPet Challenge": {
-        "Coding": {
-          "Sequencing": "notStarted",
-          "Loops": "notStarted",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "notStarted",
-          "Motor control": "notStarted",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Scratch Game": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Line-Following Robot": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "LED Sequencer": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Interactive Story": {
-       "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "End-of-Term Showcase": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      }
-    },
-    "weeklyReport": {
-      "skillsPracticed": [
-        
-      ],
-      "miniChallengesCompleted": [
-       
-      ],
-      "collaborationScore": 0,
-      "creativityScore": 0,
-      "confidenceGrowth": "-"
-    },
-    "badgesEarned": [
-      {
-        "name": "",
-        "description": "",
-        "icon": "🎤",
-        "season": "SeedSZN",
-        "criteria": ""
-      }
-  
-    ],
-    "instructorNotes": "",
-    "suggestedNextSteps": [
-      ""
-    ]
-  },
-
-
-
-
-  {
-    "id": "009",
-    "name": "Lesego",
-    "program" : "Innovators",
-    "photo": "images/avatars/beyonce.jpg",
-    "projectGallery": [
-      {
-        "title": "RoboBUG",
-        "image": "images/studentprojects/beyonce/images1.jpg"
-      },
-      {
-        "title": "Light Sensor Bot",
-        "image": "images/studentprojects/beyonce/2.png"
-      },
-      {
-        "title": "RoboBUG",
-        "image": "images/studentprojects/beyonce/3.jpg"
-      },
-      {
-        "title": "Light Sensor Bot",
-        "image": "images/studentprojects/beyonce/4.jpg"
-      },
-      {
-        "title": "RoboBUG",
-        "image": "images/studentprojects/beyonce/5.jpg"
-      },
-      {
-        "title": "Light Sensor Bot",
-        "image": "images/studentprojects/beyonce/6.jpg"
-      }
-           
-    ],
-    "parentName": "SHONI",
-    "parentToken": "LESEGO-707",
-    "grade": "4",
-    "sessionsRemaining": 2,
-    "currentSeason": "SeedSZN",
-    "seasonMilestones": [
-      "inProgress",
-      "notStarted",
-      "notStarted",
-      "notStarted",
-      "notStarted",
-      "notStarted"
-    ],
-    "currentMilestoneIndex": 1,
-    "milestoneProgress": {
-      "RoboPet Challenge": {
-        "Coding": {
-          "Sequencing": "notStarted",
-          "Loops": "notStarted",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "notStarted",
-          "Motor control": "notStarted",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Scratch Game": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Line-Following Robot": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "LED Sequencer": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Interactive Story": {
-       "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "End-of-Term Showcase": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      }
-    },
-    "weeklyReport": {
-      "skillsPracticed": [
-        
-      ],
-      "miniChallengesCompleted": [
-       
-      ],
-      "collaborationScore": 0,
-      "creativityScore": 0,
-      "confidenceGrowth": "-"
-    },
-    "badgesEarned": [
-      {
-        "name": "",
-        "description": "",
-        "icon": "🎤",
-        "season": "SeedSZN",
-        "criteria": ""
-      }
-  
-    ],
-    "instructorNotes": "",
-    "suggestedNextSteps": [
-      ""
-    ]
-  },
-
-
-
 
   {
     "id": "009",
@@ -952,155 +188,72 @@
     ]
   },
 
-
-
-
   {
-    "id": "006",
-    "name": "Lehumo",
+    "id": "009",
+    "name": "Elisha",
     "program" : "Innovators",
-    "photo": "images/avatars/lehumo.jpeg",
+    "photo": "images/avatars/elisha.jpeg",
     "projects": [
           {
           "type": "video",
-          "title": "RoboPet",
-          "media": "images/studentprojects/lehumo/roborPet1.mp4"
+          "title": "RoboPet Demo",
+          "media": "images/studentprojects/elisha/robopet.mp4"
         },
           {
           "type": "video",
-          "title": "Cable Car",
-          "media": "images/studentprojects/lehumo/6.mp4"
+          "title": "Maze Game",
+          "media": "images/studentprojects/elisha/mazegame.mp4"
         } , 
         {
           "type": "video",
-          "title": "Monster Truck",
-          "media": "images/studentprojects/lehumo/14.mp4"
+          "title": "Cherry solves a maze",
+          "media": "images/studentprojects/elisha/cherrymaze.mp4"
         } ,
-         {
-          "type": "image",
-          "title": "Monster Truck",
-          "media": "images/studentprojects/lehumo/8.jpeg"
+        {
+          "type": "video",
+          "title": "Path-Following Robot",
+          "media": "images/studentprojects/elisha/square.mp4"
+        },
+        {
+          "type": "video",
+          "title": "Path-Following Robot",
+          "media": "images/studentprojects/elisha/rectangle.mp4"
         },
          {
           "type": "image",
-          "title": "Coding",
-          "media": "images/studentprojects/lehumo/11.jpeg"
+          "title": "RoboPet",
+          "media": "images/studentprojects/elisha/2.jpeg"
+        },
+         {
+          "type": "image",
+          "title": "Robo Zoo",
+          "media": "images/studentprojects/elisha/robozoo.jpeg"
         } ,
          {
-          "type": "video",
-          "title": "Rescue Choppa",
-          "media": "images/studentprojects/lehumo/5.mp4"
+          "type": "image",
+          "title": "Tech Goalie",
+          "media": "images/studentprojects/elisha/3.jpeg"
         } 
     ],
-    "parentName": "Karabo",
-    "parentToken": "LEHUMO-782",
-    "grade": "3",
-    "sessionsRemaining": 4,
+    "parentName": "Daphne",
+    "parentToken": "ELISHA-154",
+    "grade": "1",
+    "sessionsRemaining": 3,
     "currentSeason": "SeedSZN",
     "seasonMilestones": [
-      "inProgress",
-      "notStarted",
+      "complete",
+      "complete",
       "notStarted",
       "notStarted",
       "notStarted",
       "notStarted"
     ],
-    "currentMilestoneIndex": 0,
+    "currentMilestoneIndex": 2,
     "milestoneProgress": {
       "RoboPet Challenge": {
         "Coding": {
-          "Sequencing": "mastered",
-          "Debugging" : "mastered",
-          "Events": "inProgress",
+          "Sequencing": "notStarted",
           "Loops": "notStarted",
-          "Conditionals": "notStarted", 
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Scratch Game": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Line-Following Robot": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "LED Sequencer": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Interactive Story": {
-       "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "End-of-Term Showcase": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Loops": "mastered",
           "Conditionals": "notStarted",
           "Events": "notStarted",
           "Debugging" : "notStarted",
@@ -1114,126 +267,8 @@
           "Circuit building": "notStarted",
           "Problem solving": "notStarted"
         }
-      }
-    },
-    "weeklyReport": {
-      "skillsPracticed": [
-        "Sequential Thinking",
-        "Mechanical Building",
-        "Motor Control",
-        "Logical Thinking",
-        "Sensor Integration"
-      ],
-      "miniChallengesCompleted": [
-       "Build a six legged insect",
-      "Make it make a sound and move"      
-    ],
-      "collaborationScore": 10,
-      "creativityScore": 10,
-      "confidenceGrowth": "Lehumo is off to a great start. His confidence in programming is growing each week."
-    },
-    "badgesEarned": [
-      {
-        "name": "Robot Wrangler",
-        "description": "Shows ability to control and build robotic systems.",
-        "icon": "🤖",
-        "season": "SeedSZN",
-        "criteria": ""
       },
-
-      {
-        "name": "Mini Maker",
-        "description": "Completed a hands-on build.",
-        "icon": "🧰",
-        "season": "SeedSZN",
-        "criteria": ""
-      },
-        {
-        "name": "Robo Rookie",
-        "description": "Took the first step into the world of robotics and coding. Completed their first guided build or block of code.",
-        "icon": "🎓",
-        "season": "SeedSZN",
-        "criteria": ""
-      }
-    ],
-    "instructorNotes": "Lehumo built his 6 legged insect with such confidence. He showed creativity with his robot, and was very helpful to the other students. Keep it up!",
-    "suggestedNextSteps": [
-      "In the next session, work on completing the rest of the mini challenges for this roboPet challenge."
-    ]
-  },
-
-
-  {
-    "id": "006",
-    "name": "Jordan",
-    "program" : "Innovators",
-    "photo": "images/avatars/jordan.jpeg",
-    "projects": [
-          {
-          "type": "video",
-          "title": "RoboPet",
-          "media": "images/studentprojects/jordan/roboPet.mp4"
-        },
-          {
-          "type": "video",
-          "title": "Driving Base",
-          "media": "images/studentprojects/jaden/4.mp4"
-        } , 
-        {
-          "type": "video",
-          "title": "Driving Base",
-          "media": "images/studentprojects/jaden/5.mp4"
-        } ,
-         {
-          "type": "image",
-          "title": "RoboPet",
-          "media": "images/studentprojects/jordan/2.jpeg"
-        },
-         {
-          "type": "image",
-          "title": "Driving Base",
-          "media": "images/studentprojects/jaden/2.jpeg"
-        } ,
-         {
-          "type": "image",
-          "title": "Driving Base",
-          "media": "images/studentprojects/jaden/3.jpeg"
-        } 
-    ],
-    "parentName": "Karabo",
-    "parentToken": "JORDAN-108",
-    "grade": "4",
-    "sessionsRemaining": 3,
-    "currentSeason": "SeedSZN",
-    "seasonMilestones": [
-      "inProgress",
-      "notStarted",
-      "notStarted",
-      "notStarted",
-      "notStarted",
-      "notStarted"
-    ],
-    "currentMilestoneIndex": 0,
-    "milestoneProgress": {
-       "RoboPet Challenge": {
-        "Coding": {
-          "Sequencing": "mastered",
-          "Debugging" : "mastered",
-          "Events": "inProgress",
-          "Loops": "notStarted",
-          "Conditionals": "notStarted", 
-          "Variables" : "notStarted"
-        },
-        "Robotics": {
-          "Mechanical building": "inProgress",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
-          "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
-        }
-      },
-      "Scratch Game": {
+      "Maze Game": {
         "Coding": {
           "Sequencing": "mastered",
           "Loops": "mastered",
@@ -1251,22 +286,22 @@
           "Problem solving": "notStarted"
         }
       },
-      "Line-Following Robot": {
+      "Path-Following Robot": {
         "Coding": {
+          "Drag-and-drop coding": "mastered",
           "Sequencing": "mastered",
           "Loops": "mastered",
-          "Conditionals": "notStarted",
-          "Events": "notStarted",
-          "Debugging" : "notStarted",
-          "Variables" : "notStarted"
+          "Events": "mastered",
+          "Debugging" : "inProgress",
+          "Planning and predicting outcome": "mastered"
         },
         "Robotics": {
           "Mechanical building": "mastered",
-          "Motor control": "inProgress",
-          "Sensor integration": "notStarted",
-          "Logic linking": "notStarted",
+          "Motor control": "mastered",
           "Circuit building": "notStarted",
-          "Problem solving": "notStarted"
+          "Problem solving": "inProgress",
+          "Spatial awareness": "notStarted",
+          "Creativity in design": "mastered"
         }
       },
       "LED Sequencer": {
@@ -1326,101 +361,317 @@
     },
     "weeklyReport": {
       "skillsPracticed": [
-        "Sequential Thinking",
-        "Mechanical Building",
-        "Motor Control",
-        "Logical Thinking",
-        "Sensor Integration"
+        "Recognise the pattern",
+        "Looping"
       ],
       "miniChallengesCompleted": [
-        "Build a six legged insect",
-        "Make it make a sound and move"
-
+        "Complete building a robot",
+        "Use a loop to move around a square",
+        "Use a loop to move around a rectangle"
       ],
-      "collaborationScore": 5,
-      "creativityScore": 7,
-      "confidenceGrowth": "Jordan is off to a great start. His coding curiosity is getting stronger."
+      "collaborationScore": 10,
+      "creativityScore": 10,
+      "confidenceGrowth": "Elisha is becoming very strong in programming. I am especially impressed by how well she collaborated with her team today, truly outstanding!"
     },
     "badgesEarned": [
       {
-        "name": "Robo Rookie",
-        "description": "Took the first step into the world of robotics and coding. Completed their first guided build or block of code.",
-        "icon": "🎓",
+        "name": "Square Master",
+        "description": "Badge awarded for coding a robot to move in a square",
+        "icon": "⬛",
+        "season": "SeedSZN",
+        "criteria": ""
+      },
+      {
+        "name": "Rectangle Rider",
+        "description": "Badge awarded for coding a robot to move in a rectangle",
+        "icon": "▭",
+        "season": "SeedSZN",
+        "criteria": ""
+      },
+      {
+        "name": "Loop Champion",
+        "description": "Badge awarded for using a loop to make code shorter and smarter.",
+        "icon": "🔄",
         "season": "SeedSZN",
         "criteria": ""
       }
   
     ],
-    "instructorNotes": "Jordan showed creativity in customising the RoboPet. He needs to work on building and working in a team.",
+    "instructorNotes": "Elisha’s coding skills are growing stronger each week, and it is so rewarding to witness her progress. Today, she impressed me by solving the path-following challenge with ease and using loops so effectively. ",
     "suggestedNextSteps": [
-      "In the next session, work on completing the rest of the mini challenges for this roboPet challenge."
+      "Up next, Elisha will take on the exciting challenge of programming her robot to follow a triangle, a task that will push her to think even deeper about her code."
     ]
-  },
+  } ,
 
   {
-    "id": "006",
-    "name": "Jaden",
+    "id": "009",
+    "name": "Leeya",
     "program" : "Innovators",
-    "photo": "images/avatars/jaden.jpeg",
+    "photo": "images/avatars/leeya.jpeg",
     "projects": [
           {
           "type": "video",
           "title": "RoboPet",
-          "media": "images/studentprojects/jordan/roboPet.mp4"
+          "media": "images/studentprojects/leeya/1.mp4"
+        },
+        {
+          "type": "image",
+          "title": "Robo Zoo",
+          "media": "images/studentprojects/leeya/robozoo.jpeg"
         },
           {
           "type": "video",
-          "title": "Driving Base",
-          "media": "images/studentprojects/jaden/4.mp4"
+          "title": "Maze Game",
+          "media": "images/studentprojects/leeya/mazegame.mp4"
         } , 
         {
           "type": "video",
-          "title": "Driving Base",
-          "media": "images/studentprojects/jaden/5.mp4"
+          "title":"Path-Following Robot - Square",
+          "media": "images/studentprojects/leeya/square.mp4"
+        } ,
+        {
+          "type": "video",
+          "title":"Path-Following Robot - Rectangle",
+          "media": "images/studentprojects/leeya/rectangle.mp4"
         } ,
          {
           "type": "image",
-          "title": "RoboPet",
-          "media": "images/studentprojects/jaden/4.jpeg"
-        },
-         {
-          "type": "image",
-          "title": "Driving Base",
-          "media": "images/studentprojects/jaden/2.jpeg"
-        } ,
-         {
-          "type": "image",
-          "title": "Driving Base",
-          "media": "images/studentprojects/jaden/3.jpeg"
+          "title": "Path-Following Robot",
+          "media": "images/studentprojects/leeya/cherry.jpeg"
         } 
     ],
-    "parentName": "Le",
-    "parentToken": "JADEN-839",
-    "grade": "4",
-    "sessionsRemaining":3 ,
+    "parentName": "Karen",
+    "parentToken": "LEEYA-046",
+    "grade": "2",
+    "sessionsRemaining": 1,
     "currentSeason": "SeedSZN",
     "seasonMilestones": [
-      "inProgress",
-      "notStarted",
+      "complete",
+      "complete",
       "notStarted",
       "notStarted",
       "notStarted",
       "notStarted"
     ],
-    "currentMilestoneIndex": 0,
+    "currentMilestoneIndex": 2,
     "milestoneProgress": {
       "RoboPet Challenge": {
         "Coding": {
-          "Sequencing": "mastered",
-          "Debugging" : "mastered",
-          "Events": "inProgress",
+          "Sequencing": "notStarted",
           "Loops": "notStarted",
-          "Conditionals": "notStarted", 
+          "Conditionals": "notStarted",
+          "Events": "notStarted",
+          "Debugging" : "notStarted",
+          "Variables" : "notStarted"
+        },
+        "Robotics": {
+          "Mechanical building": "notStarted",
+          "Motor control": "notStarted",
+          "Sensor integration": "notStarted",
+          "Logic linking": "notStarted",
+          "Circuit building": "notStarted",
+          "Problem solving": "notStarted"
+        }
+      },
+      "Scratch Game": {
+        "Coding": {
+          "Sequencing": "mastered",
+          "Loops": "mastered",
+          "Conditionals": "notStarted",
+          "Events": "notStarted",
+          "Debugging" : "notStarted",
           "Variables" : "notStarted"
         },
         "Robotics": {
           "Mechanical building": "mastered",
           "Motor control": "inProgress",
+          "Sensor integration": "notStarted",
+          "Logic linking": "notStarted",
+          "Circuit building": "notStarted",
+          "Problem solving": "notStarted"
+        }
+      },
+      "Path-Following Robot": {
+        "Coding": {
+          "Drag-and-drop coding": "mastered",
+          "Sequencing": "mastered",
+          "Loops": "mastered",
+          "Events": "mastered",
+          "Debugging" : "inProgress",
+          "Planning and predicting outcome": "mastered"
+        },
+        "Robotics": {
+          "Mechanical building": "mastered",
+          "Motor control": "mastered",
+          "Circuit building": "notStarted",
+          "Problem solving": "inProgress",
+          "Spatial awareness": "notStarted",
+          "Creativity in design": "mastered"
+        }
+      },
+      "LED Sequencer": {
+        "Coding": {
+          "Sequencing": "mastered",
+          "Loops": "mastered",
+          "Conditionals": "notStarted",
+          "Events": "notStarted",
+          "Debugging" : "notStarted",
+          "Variables" : "notStarted"
+        },
+        "Robotics": {
+          "Mechanical building": "mastered",
+          "Motor control": "inProgress",
+          "Sensor integration": "notStarted",
+          "Logic linking": "notStarted",
+          "Circuit building": "notStarted",
+          "Problem solving": "notStarted"
+        }
+      },
+      "Interactive Story": {
+       "Coding": {
+          "Sequencing": "mastered",
+          "Loops": "mastered",
+          "Conditionals": "notStarted",
+          "Events": "notStarted",
+          "Debugging" : "notStarted",
+          "Variables" : "notStarted"
+        },
+        "Robotics": {
+          "Mechanical building": "mastered",
+          "Motor control": "inProgress",
+          "Sensor integration": "notStarted",
+          "Logic linking": "notStarted",
+          "Circuit building": "notStarted",
+          "Problem solving": "notStarted"
+        }
+      },
+      "End-of-Term Showcase": {
+        "Coding": {
+          "Sequencing": "mastered",
+          "Loops": "mastered",
+          "Conditionals": "notStarted",
+          "Events": "notStarted",
+          "Debugging" : "notStarted",
+          "Variables" : "notStarted"
+        },
+        "Robotics": {
+          "Mechanical building": "mastered",
+          "Motor control": "inProgress",
+          "Sensor integration": "notStarted",
+          "Logic linking": "notStarted",
+          "Circuit building": "notStarted",
+          "Problem solving": "notStarted"
+        }
+      }
+    },
+    "weeklyReport": {
+      "skillsPracticed": [
+        "Looping",
+        "Recognise the pattern"
+      ],
+      "miniChallengesCompleted": [
+         "Complete building a robot",
+        "Use a loop to move around a square",
+        "Use a loop to move around a rectangle"
+      ],
+      "collaborationScore": 0,
+      "creativityScore": 0,
+      "confidenceGrowth": "Leeya impressed me by using loops all on her own, even before I could step in to help. Truly outstanding work."
+    },
+    "badgesEarned": [
+      {
+        "name": "Square Master",
+        "description": "Badge awarded for coding a robot to move in a square",
+        "icon": "⬛",
+        "season": "SeedSZN",
+        "criteria": ""
+      },
+      {
+        "name": "Rectangle Rider",
+        "description": "Badge awarded for coding a robot to move in a rectangle",
+        "icon": "▭",
+        "season": "SeedSZN",
+        "criteria": ""
+      },
+      {
+        "name": "Loop Champion",
+        "description": "Badge awarded for using a loop to make code shorter and smarter.",
+        "icon": "🔄",
+        "season": "SeedSZN",
+        "criteria": ""
+      }
+    ],
+    "instructorNotes": "Leeya has grown into a very strong programmer and an excellent leader. She guided her teammate with confidence today, and I’m truly impressed by her skills.",
+    "suggestedNextSteps": [
+      "Up next, Leeya will take on the exciting challenge of programming her robot to follow a triangle, a task that will push her to think even deeper about her code."
+    ]
+  } ,
+ 
+
+  {
+    "id": "009",
+    "name": "Imayrah",
+    "program" : "Innovators",
+    "photo": "images/avatars/tswelelo.jpeg",
+    "projects": [
+          {
+          "type": "video",
+          "title": "RoboPet Demo",
+          "media": "images/studentprojects/tswelelo/1.mp4"
+        },
+          {
+          "type": "video",
+          "title": "RoboPet Demo",
+          "media": "images/studentprojects/tswelelo/7.mp4"
+        } , 
+        {
+          "type": "video",
+          "title": "RoboPet Demo",
+          "media": "images/studentprojects/tswelelo/2.mp4"
+        } ,
+         {
+          "type": "image",
+          "title": "Scratch Maze",
+          "media": "images/studentprojects/tswelelo/5.jpeg"
+        },
+         {
+          "type": "image",
+          "title": "Scratch Maze",
+          "media": "images/studentprojects/tswelelo/9.jpeg"
+        } ,
+         {
+          "type": "image",
+          "title": "Scratch Maze",
+          "media": "images/studentprojects/tswelelo/3.jpeg"
+        } 
+    ],
+    "parentName": "Fathima",
+    "parentToken": "IMAYRAH-294",
+    "grade": "4",
+    "sessionsRemaining": 0,
+    "currentSeason": "SeedSZN",
+    "seasonMilestones": [
+      "complete",
+      "complete",
+      "notStarted",
+      "notStarted",
+      "notStarted",
+      "notStarted"
+    ],
+    "currentMilestoneIndex": 1,
+    "milestoneProgress": {
+      "RoboPet Challenge": {
+        "Coding": {
+          "Sequencing": "notStarted",
+          "Loops": "notStarted",
+          "Conditionals": "notStarted",
+          "Events": "notStarted",
+          "Debugging" : "notStarted",
+          "Variables" : "notStarted"
+        },
+        "Robotics": {
+          "Mechanical building": "notStarted",
+          "Motor control": "notStarted",
           "Sensor integration": "notStarted",
           "Logic linking": "notStarted",
           "Circuit building": "notStarted",
@@ -1520,47 +771,28 @@
     },
     "weeklyReport": {
       "skillsPracticed": [
-        "Sequential Thinking",
-          "Mechanical Building",
-          "Motor Control",
-          "Logical Thinking",
-          "Sensor Integration"
+        
       ],
       "miniChallengesCompleted": [
-       "Build a six legged insect",
-       "Make it make a sound and move"
+       
       ],
-      "collaborationScore": 5,
-      "creativityScore": 7,
-      "confidenceGrowth": "Jaden is getting stronger at building. Impressive building skills this week."
+      "collaborationScore": 0,
+      "creativityScore": 0,
+      "confidenceGrowth": "-"
     },
     "badgesEarned": [
       {
-        "name": "Robot Wrangler",
-        "description": "Shows ability to control and build robotic systems.",
-        "icon": "🤖",
-        "season": "SeedSZN",
-        "criteria": ""
-      },
-
-      {
-        "name": "Mini Maker",
-        "description": "Completed a hands-on build.",
-        "icon": "🧰",
-        "season": "SeedSZN",
-        "criteria": ""
-      },
-        {
-        "name": "Robo Rookie",
-        "description": "Took the first step into the world of robotics and coding. Completed their first guided build or block of code.",
-        "icon": "🎓",
+        "name": "",
+        "description": "",
+        "icon": "🎤",
         "season": "SeedSZN",
         "criteria": ""
       }
+  
     ],
-    "instructorNotes": "Jaden built his 6 legged insect with such confidence. He took leadership in building the robotic pet accurately. Keep it up!",
+    "instructorNotes": "",
     "suggestedNextSteps": [
-      "In the next session, work on completing the rest of the mini challenges for this roboPet challenge. Practice team work. "
+      ""
     ]
-  }
+  } 
 ]

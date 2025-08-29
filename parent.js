@@ -3,14 +3,22 @@ function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+function getMilestoneDescription(index) {
+    const description = projectMilestones[index] || "No project details available for this milestone.";
+    const title = projectMilestones[index]?.split("–")[0]?.trim() || "Milestone";
+    const body = projectMilestones[index]?.split("–")[1]?.trim() || "";
+    return { title, body, full: description };
+}
+
+
 // Map Milestone Index to Name
 const milestoneSkillsMap = {
     0: "RoboPet Challenge",
-    1: "Scratch Game",
-    2: "Line-Following Robot",
+    1: "Maze Game",
+    2: "Path-Following Robot",
     3: "LED Sequencer",
-    4: "Interactive Story",
-    5: "End-of-Term Showcase"
+    4: "3D Designer's Challenge",
+    5: "AI Game Creator"   
 };
 
 //Seasons descriptions
@@ -25,13 +33,15 @@ const seasonDescriptions = {
 
 // Milestone Descriptions
 const projectMilestones = [
-    "RoboPet Challenge – To introduce students to basic robotics building and programming by designing their own robotic pet. The focus is on mechanical construction, basic motion, sensor input, and sequencing in code.",
-    "Scratch Maze Game – Students coded a maze game using loops and motion blocks.",
-    "Line-Following Robot – Students built robots that follow paths using light sensors.",
-    "LED Sequencer – Students programmed blinking LED patterns using Arduino.",
-    "Interactive Story – Learners created interactive animations using Scratch events.",
-    "End-of-Term Showcase – Students presented their final creative robotics projects."
+    //projectMilestones
+    "RoboPet Challenge – Build and program a robotic pet that reacts to simple commands.",
+    "ScratchJr Maze Game – Create a maze game with loops and motion blocks.",
+    "Path-Following Robot – Build a robot that follows a taped path using sensors.",
+    "LED Sequencer - Make your art light up",
+    "3D Designer's Challenge – Design a toy or gadget using simple 3D shapes.",
+    "AI Game Creator – Train an AI model and use it to control a Scratch game."
 ];
+
 
 // Main Dashboard Renderer
 function renderDashboard(student) {
@@ -69,6 +79,7 @@ function renderDashboard(student) {
 
     const milestoneName = milestoneSkillsMap[student.currentMilestoneIndex ?? 0] || "No active milestone";
     document.getElementById("skillFocusTitle").textContent = `🌱 Skill Focus: ${milestoneName}`;
+
     renderSkillsGrouped(milestoneName, student);
 
     document.getElementById("instructorNoteText").textContent =
@@ -202,17 +213,17 @@ function renderSkillsGrouped(milestoneName, student) {
         }
     }
     // If student is in Code Explorers, add the warning message below Robotics table
-        if (student.program === "Code Explorers") {
-            const warningRow = document.createElement("tr");
-            warningRow.innerHTML = `
+    if (student.program === "Code Explorers") {
+        const warningRow = document.createElement("tr");
+        warningRow.innerHTML = `
                 <td colspan="3">
                     <div style="margin-top: 10px; font-weight: bold; color: #ffc107; background-color: rgba(255, 193, 7, 0.1); padding: 12px; border-radius: 10px; text-align: center;">
                         ⚠️ Robotics skills shown here are not part of your child’s current package.
                     </div>
                 </td>
             `;
-            roboticsBody.appendChild(warningRow);
-        }
+        roboticsBody.appendChild(warningRow);
+    }
 
 }
 
@@ -231,10 +242,12 @@ function renderSeasonalProgress(student) {
         SeedSZN: "🌱", CodeSZN: "💻", BuildSZN: "🛠️", CompeteSZN: "🤖", MakerSZN: "🧠"
     };
 
-    const roboticsMilestoneIndexes = [0, 2,5]; // e.g. RoboPet, Line-Following, LED Sequencer
+    const roboticsMilestoneIndexes = [0, 2, 5];
     const isCodeOnly = student.program === "Code Explorers";
     const currentIndex = seasonOrder.indexOf(student.currentSeason);
+
     const track = document.querySelector(".season-track");
+    if (!track) return;
     track.innerHTML = "";
 
     seasonOrder.forEach((szn, index) => {
@@ -255,6 +268,8 @@ function renderSeasonalProgress(student) {
 
     const milestoneRow = document.querySelector(".milestones");
     const caption = document.querySelector("#season-caption");
+    if (!milestoneRow || !caption) return;
+
     milestoneRow.innerHTML = "";
     let inProgressShown = false;
 
@@ -282,13 +297,31 @@ function renderSeasonalProgress(student) {
         milestoneRow.appendChild(dot);
     });
 
-    const completed = (student.seasonMilestones || []).filter(m => m === "complete").length;
-    caption.textContent = `${student.currentSeason.replace("SZN", "SZN")} milestone ${completed} of 6`;
-
     const seasonSummary = document.getElementById("seasonSummary");
+    const completed = (student.seasonMilestones || []).filter(m => m === "complete").length;
+    const totalMilestones = (student.seasonMilestones || []).length;
+
+    // Update caption
+    caption.textContent = `${student.currentSeason} milestone ${completed} of ${totalMilestones}`;
     seasonSummary.textContent = seasonDescriptions[student.currentSeason] || "No details available for this season.";
 
+    // Show description of last completed milestone
+    const lastCompletedIndex = (student.seasonMilestones || []).lastIndexOf("complete");
+    const projectText = document.getElementById("projectText");
+
+        if (lastCompletedIndex >= 0) {
+            const { title, body } = getMilestoneDescription(lastCompletedIndex);
+            projectText.innerHTML = `<strong>${title}</strong><br>${body}`;
+        } else {
+            projectText.innerHTML = `<strong>Milestone Not Started</strong><br>No completed milestones yet.`;
+        }
+
+
+
+    if (seasonSummary)
+        seasonSummary.textContent = seasonDescriptions[student.currentSeason] || "No details available for this season.";
 }
+
 
 
 // Load data on page ready
@@ -314,27 +347,29 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Failed to load student data.");
         });
 
-document.querySelector(".milestones").addEventListener("click", (e) => {
-    const bubble = e.target.closest(".milestone");
-    if (!bubble) return;
+    document.querySelector(".milestones").addEventListener("click", (e) => {
+        const bubble = e.target.closest(".milestone");
+        if (!bubble) return;
 
-    const isLocked = bubble.classList.contains("locked");
-    const index = parseInt(bubble.getAttribute("data-index"));
-    const textBox = document.getElementById("projectText");
+        const isLocked = bubble.classList.contains("locked");
+        const index = parseInt(bubble.getAttribute("data-index"));
+        const textBox = document.getElementById("projectText");
 
-    const title = projectMilestones[index]?.split("–")[0]?.trim() || "Milestone";
-    const description = projectMilestones[index] || "No project details available for this milestone.";
+        //const title = projectMilestones[index]?.split("–")[0]?.trim() || "Milestone";
+        //const description = projectMilestones[index] || "No project details available for this milestone.";
+        const { title, body, full } = getMilestoneDescription(index);
 
-    if (isLocked) {
-        textBox.innerHTML = `
-            <strong>${title}</strong><br>
-            🚫 <em>This milestone includes robotics and is not part of your child’s Code Explorers package.</em>
-        `;
-        logInteraction?.("Access Denied", `Parent tried to view locked milestone ${index + 1}`, currentStudent);
-    } else {
-        textBox.textContent = description;
-    }
-});
+        if (isLocked) {
+            textBox.innerHTML = `
+        <strong>${title}</strong><br>
+        🚫 <em>This milestone includes robotics and is not part of your child’s Code Explorers package.</em>
+    `;
+            logInteraction?.("Access Denied", `Parent tried to view locked milestone ${index + 1}`, currentStudent);
+        } else {
+            textBox.innerHTML = `<strong>${title}</strong><br>${body}`;
+        }
+
+    });
 
 
 });

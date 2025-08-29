@@ -74,6 +74,17 @@ body {
   white-space: nowrap;
 }
 
+.logo-tag img {
+  height: 80px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .logo-tag img {
+    height: 50px;
+  }
+}
+
 .season {
   width: 90px;
   height: 90px;
